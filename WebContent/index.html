@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<title>Online Book Store</title>
+</head>
+
+<body>
+
+<div id="wrapper">
+	<div id="header-container">     	    	
+	ONLINE BOOK STORE      
+	</div>
+	<div id="menu">
+		<table>
+			<tr>				
+				<!-- <td><a href="steps.jsp">Steps To Proceed</a></td>-->
+				<td><a href="login.html">Login</a></td>
+				<td><a href="signup.html">Sign Up</a></td>
+				<td><a href="./Controller?operation=logout">Logout</a></td>	
+			</tr>
+		</table>
+	</div>
+            
+  	<div id="content-container">
+       	<div id="content">
+       		<h3>Our Products</h3> 
+       		<hr/>
+       		<form method="post" action="./Controller">     
+	       	  	<div class="product">
+	        	  	<div class="product_detail">   
+	               		<h5>1. Don Quixote by Miguel de Cervantes</h5>
+	             		<p>Alonso Quixano, a retired country gentleman in his fifties, lives in an unnamed section of La Mancha with his niece and a housekeeper. He has become obsessed with books of chivalry, and believes
+	             		</p>
+						<p class="price">
+							<input type="checkbox" name="book" value="Don Quixote by Miguel de Cervantes-1200"/>	Rs. 1200
+						</p>                      
+					</div>
+					
+		            <div class="product_pic">	                	
+		              	<img src="images/book1.jpg" width="120" />
+		            </div>
+	              	<div style="clear:both"></div>
+	             </div>
+	             
+	             <div class="product">
+	        	  	<div class="product_detail">   
+	               		<h5>2. Ulysses by James Joyce</h5>
+	             		<p>Ulysses chronicles the passage of Leopold Bloom through Dublin during an ordinary day, June 16, 1904. The title parallels and alludes to Odysseus (Latinised into Ulysses), the hero of Homer's Odyss
+	             		</p>
+						<p class="price">
+							<input type="checkbox" name="book" value="Ulysses by James Joyce-1500"/>	Rs. 1500 
+						</p>                      
+					</div>
+					
+		            <div class="product_pic">	                	
+		              	<img src="images/book2.jpg" width="120" />
+		            </div>
+	              	<div style="clear:both"></div>
+	             </div>
+	             
+	             <div class="product">
+	        	  	<div class="product_detail">   
+	               		<h5>3. Lolita by Vladimir Nabokov</h5>
+	             		<p>The book is internationally famous for its innovative style and infamous for its controversial subject: the protagonist and unreliable narrator, middle aged Humbert Humbert, becomes obsessed
+	             		</p>
+						<p class="price">
+							<input type="checkbox" name="book" value="Lolita by Vladimir Nabokov-700"/>	Rs. 700
+						</p>                      
+					</div>
+					
+		            <div class="product_pic">	                	
+		              	<img src="images/book3.jpg" width="120" />
+		            </div>
+	              	<div style="clear:both"></div>
+	             </div>
+	             
+	             <div class="product">
+	        	  	<div class="product_detail">   
+	               		<h5>4. The Adventures of Huckleberry Finn by Mark Twain</h5>
+	             		<p>Revered by all of the town's children and dreaded by all of its mothers, Huckleberry Finn is indisputably the most appealing child-hero in American literature. Unlike the tall-tale, idyllic world
+	             		</p>
+						<p class="price">
+							<input type="checkbox" name="book" value="The Adventures of Huckleberry Finn by Mark Twain-800"/>	Rs. 800
+							
+						</p>                      
+					</div>
+					
+		            <div class="product_pic">	                	
+		              	<img src="images/book4.jpg" width="120" />
+		            </div>
+	              	<div style="clear:both"></div>
+	             </div>
+	             
+	             <div class="product">
+	        	  	<div class="product_detail">   
+	               		<h5>5. The Great Gatsby by F. Scott Fitzgerald</h5>
+	             		<p>The novel chronicles an era that Fitzgerald himself dubbed the "Jazz Age". Following the shock and chaos of World War I, American society enjoyed unprecedented levels of prosperity during the "roar
+	             		</p>
+						<p class="price">
+							<input type="checkbox" name="book" value="The Great Gatsby by F. Scott Fitzgerald-500"/>	Rs. 500
+						</p>                      
+					</div>
+					
+		            <div class="product_pic">	                	
+		              	<img src="images/book5.jpg" width="120" />
+		            </div>
+	              	<div style="clear:both"></div>
+	             </div>
+	             
+	             <div>
+	             	<input type="submit" value="Buy" class="formbutton"/>
+	             	<input type="hidden" value="buy" name="operation"/>
+	             </div>
+             </form>
+    	</div>      	
+    </div>
+    
+	<div id="footer">Developed By : <strong>Chetan Yadav</strong></div>
+	
+</div>
+
+</body>
+</html>

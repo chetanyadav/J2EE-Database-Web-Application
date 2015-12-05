@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	padding:0;
+	margin:0;
+	background-image:url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	font-family:Arial, Helvetica, sans-serif;
+}
+a , input.formbutton
+{
+	text-decoration:none;
+	border-radius:5px;
+	background-color:#000;
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;	
+	padding:8px;
+	border:none;
+	font-family:arial;
+	cursor:pointer;
+}
+a:hover
+{
+	color:#bbb;
+}
+a.right
+{
+	float:right;
+}
+#wrapper
+{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFF;
+	border-left:5px solid #fff;
+	border-right:5px solid #fff;
+}
+#header-container
+{
+	font-size:56px;
+	padding:20px 0;
+	font-family:IMPACT;
+}
+#logo-container
+{
+	float:left;
+	width:150px;	
+}
+
+#content-container
+{
+	min-height:450px;
+	background-image:url(../images/left_bg.jpg);
+	padding:20px 0;
+}
+.product_detail
+{
+	float:left;
+	width:800px;
+}
+.product
+{
+	padding:10px 0;
+}
+.product_pic
+{
+	float:right;
+	width:120px;
+}
+#footer
+{
+	height:30px;
+	line-height:30px;
+	text-align:center;	
+	font-size:12px;
+	width:960px;
+	background-color:#eee;	
+}
+
+.formlabel
+{
+	font-weight:bold;
+	font-size:12px;
+	padding:10px 5px;
+}
+.forminput
+{
+	padding:3px 5px;
+	border:1px solid #999;
+	background-color:#eee;
+	resize:none;
+	font-family:arial;
+}
+textarea
+{
+	width:300px;
+	height:100x;
+	font-size:12px;
+}
+p.price
+{
+	color:red;
+	font-size:12px;
+	font-weight:bold;
+}
+#totalAmount
+{
+	text-align:right;
+}
+#checkoutLink
+{
+	float:right;
+}
+thead tr 
+{
+	background-color:#eee;
+}
+thead tr td
+{
+	font-weight:bold;
+	font-size:13px;
+	padding:4px;
+}
+tbody tr td
+{
+	font-size:13px;
+	padding:4px;
+}

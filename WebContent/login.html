@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<title>Online Book Store</title>
+</head>
+
+<body>
+
+<div id="wrapper">
+	<div id="header-container">     	    	
+	ONLINE BOOK STORE      
+	</div>
+	<div id="menu">
+		<table>
+			<tr>
+				<td><a href="./">Home</a></td>
+				<!-- <td><a href="steps.jsp">Steps To Proceed</a></td>-->				
+				<td><a href="signup.html">Sign Up</a></td>				
+			</tr>
+		</table>
+	</div>
+            
+  	<div id="content-container">
+       	<div id="content">
+       		<h3>Registered Member Log In</h3>
+       		
+       		<hr/>
+       		<form action="./Controller" method="post">
+       		<table>       			
+       			<tr>
+       				<td class="formlabel">E Mail</td>
+       				<td>
+       				<input type="text" class="forminput" maxlength="100" size="30" name="email" required/>
+       				</td>
+       			</tr>
+       			<tr>
+       				<td class="formlabel">Password</td>
+       				<td>
+       					<input type="password" class="forminput" maxlength="50" size="10" name="password" required/>
+       				</td>
+       			</tr>
+       					
+       			<tr>
+       				<td colspan="2">  
+       					<input type="submit" class="formbutton" value="Submit"/> 
+       					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       					<input type="reset" class="formbutton" value="Clear"/> 
+       					<input type="hidden" name="operation" value="login" />       										
+       				</td>
+       			</tr>
+       		</table>
+           	</form>
+    	</div>      	
+    </div>
+    
+	<div id="footer">Developed By : <strong>Chetan Yadav</strong></div>	   
+        
+</div>
+
+</body>
+</html>
